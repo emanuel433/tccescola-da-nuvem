@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Palanquin', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Staatliches', cursive;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.cabecalho {
+  background-image: url("cup-of-coffee-ga7d450669_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color: #fff;
+  border-bottom: 2px solid blue;
+  padding-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  text-decoration: underline;
+}
+
+nav a {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  background-color: #02163D;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 40px);
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.card h3,
+.card p {
+  margin-bottom: 10px;
+}
+
+.redes_sociais a img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.card button {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #000;
+}
+
+.card button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+
+
+    
